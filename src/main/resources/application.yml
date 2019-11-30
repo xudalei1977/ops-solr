@@ -1,0 +1,15 @@
+server:
+  port: 8087
+  context-path: /Solr
+
+# zookeeper参数
+zk:
+   host: 192.168.1.65:2181,192.168.1.66:2181,192.168.1.69:2181/solr
+   connect:
+      timeout: 6000
+   client:
+      timeout: 15000
+# collections
+solr:
+   collection:
+      ip: IP
