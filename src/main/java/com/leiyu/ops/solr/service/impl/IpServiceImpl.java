@@ -1,4 +1,4 @@
-package com.lavapm.solr.service.impl;
+package com.leiyu.ops.solr.service.impl;
 
 import org.apache.log4j.Logger;
 import org.apache.solr.client.solrj.SolrQuery;
@@ -10,7 +10,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import com.alibaba.fastjson.JSONArray;
-import com.lavapm.solr.service.IpService;
+import com.leiyu.ops.solr.service.IpService;
 
 @Service
 public class IpServiceImpl implements IpService {

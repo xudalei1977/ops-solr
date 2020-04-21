@@ -1,6 +1,7 @@
 server:
   port: 8087
-  context-path: /Solr
+  servlet:
+    context-path: /Solr
 
 # zookeeper参数
 zk:

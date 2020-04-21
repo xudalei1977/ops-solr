@@ -2,16 +2,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <!--<groupId>com.lavapm.lavaheat</groupId>-->
-    <parent>
-        <groupId>com.lavapm.lavaheat</groupId>
-        <artifactId>lavaheat</artifactId>
-        <version>1.0.0</version>
-    </parent>
-    <artifactId>lavaheat-solr</artifactId>
-    <version>1.0.0</version>
-    <packaging>jar</packaging>
-    <name>lavaheat-solr</name>
+	<parent>
+		<groupId>com.leiyu.ops</groupId>
+		<artifactId>ops-parent</artifactId>
+		<version>1.0.0</version>
+	</parent>
+	<artifactId>ops-solr</artifactId>
+	<version>1.0.0</version>
+	<name>ops-solr</name>
 
    <repositories>
 		<repository>

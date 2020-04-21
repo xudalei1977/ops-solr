@@ -1,4 +1,4 @@
-package com.lavapm.solr.service;
+package com.leiyu.ops.solr.service;
 
 public interface IpService {
 
